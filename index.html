@@ -2,6 +2,8 @@
 
 <head>
     <title>Trabajo Practico 1</title>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=mail" />
     <link rel="stylesheet" href="./CSS/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -31,15 +33,16 @@
             </div>
         </section>
         <div class="containerfila flexstart">
-            <section class="item">
+            <section>
                 <h2>Educación</h2>
                 <ol>
+                    <li>Colegio Dalmacio Velez Sarsfield</li>
                     <li>Instituto Cristo Rey</li>
                     <li>Ipem 286</li>
                     <li>UTN San francisco</li>
                 </ol>
             </section>
-            <section class="item">
+            <section>
                 <h2>Competencias</h2>
                 <ul>
                     <li>Dominio de lenguajes de programación: C++, Python, HTML, CSS</li>
@@ -50,14 +53,14 @@
                     <li>Disposición para aprender nuevas tecnologias y herramientas</li>
                 </ul>
             </section>
-            <section class="item">
+            <section>
                 <h2>Experiencias</h2>
                 <ol>
                     <li>Atención al cliente(2015-2018)</li>
                     <li>Soporte IT(2024-actualidad)</li>
                 </ol>
             </section>
-            <section class="item">
+            <section>
                 <h2>Proyectos realizados</h2>
                 <ul>
                     <li>Automatización de sistema de pasantías en la UTN</li>
@@ -65,25 +68,27 @@
                 </ul>
             </section>
         </div>
+        <section class="containercolumna">
+            <h2>Contacto y Redes</h2>
+            <p><i class="material-symbols-outlined">mail</i>
+                mateocortezquintino@gmail.com</p>
+            <a href="https://es.linkedin.com/">Linkedin</a>
+            <a href="https://github.com/MateoCQ">GitHub</a>
+            <p>Enviame un mensaje!</p>
+            <form method="post" action="">
+                <input name="nombre" id="nombre" placeholder="Nombre">
+
+                <input name="email" id="email" placeholder="Email">
+
+                <input name="mensaje" id="mensaje" placeholder="Mensaje">
+
+                <button class="btn">Enviar</button>
+            </form>
+        </section>
     </main>
     <footer>
-        <h2>Contacto y Redes</h2>
-        <p>Email: mateocortezquintino@gmail.com</p>
-        <a href="https://es.linkedin.com/">Linkedin</a>
-        <a href="https://github.com/MateoCQ">GitHub</a>
-        <p>Enviame un mensaje!</p>
-        <form method="post" action="">
-            <label for="nombre">Nombre:</label>
-            <input name="nombre" id="nombre">
-
-            <label for="apellido">Apellido:</label>
-            <input name="apellido" id="apellido">
-
-            <label for="mensaje">Mensaje:</label>
-            <input name="mensaje" id="mensaje">
-
-            <input type="submit" value="Enviar Mensaje">
-        </form>
+        <p>&copy; 2025 - Mi Portafolio</p>
+        <button class="btn">Modo Claro - Oscuro</button>
     </footer>
 
 </body>

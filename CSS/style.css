@@ -65,7 +65,27 @@ li{
     justify-content: space-evenly;
 }
 
-.item h2{
+body h2 {
     border-bottom-style: solid;
     border-bottom-color: #007bff;
+}
+
+.btn {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+footer {
+    background: #222;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+ol {
+    list-style-type: circle;
 }
