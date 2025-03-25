@@ -89,3 +89,20 @@ footer {
 ol {
     list-style-type: circle;
 }
+
+.dark-mode{
+    background-color: #222;
+    color: white;
+}
+
+.dark-mode .btn{
+    background-color: #555;
+}
+
+.dark-mode li{
+    background-color: #555;
+}
+
+.dark-mode footer{
+    background-color: #333;
+}
