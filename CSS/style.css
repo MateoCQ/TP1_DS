@@ -1,5 +1,5 @@
 body {
-    font-family:'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
     background-color: aliceblue;
@@ -11,9 +11,9 @@ h2 {
 }
 
 header {
-     height: 240px;
-     background:#007bff;
-     color: white;
+    height: 240px;
+    background: #007bff;
+    color: white;
 }
 
 .containercolumna {
@@ -45,22 +45,24 @@ img {
     border-radius: 50%;
     margin-bottom: 15px;
 }
-ul{
+
+ul {
     padding: 5px;
     list-style-type: none;
 }
-ol{
+
+ol {
     padding: 5px;
 }
 
-li{
+li {
     margin: 10px 0;
     background: #ccc;
     padding: 10px 15px;
     border-radius: 5px;
 }
 
-.flexstart{
+.flexstart {
     align-items: flex-start;
     justify-content: space-evenly;
 }
@@ -78,6 +80,7 @@ body h2 {
     cursor: pointer;
     border-radius: 5px;
 }
+
 footer {
     background: #333;
     color: white;
@@ -90,32 +93,32 @@ ol {
     list-style-type: circle;
 }
 
-.dark-mode{
+.dark-mode {
     background-color: #222;
     color: white;
 }
 
-.dark-mode .btn{
+.dark-mode .btn {
     background-color: #555;
 }
 
-.dark-mode li{
+.dark-mode li {
     background-color: #555;
 }
 
-.dark-mode footer{
+.dark-mode footer {
     background-color: #333;
 }
 
-@media (max-width: 768px){
-    .containerfila{
+@media (max-width: 768px) {
+    .containerfila {
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
 }
 
-.navbar ul{
+.navbar ul {
     list-style-type: none;
     background-color: #333;
     padding: 0px;
@@ -123,7 +126,7 @@ ol {
     overflow: hidden;
 }
 
-.navbar a{
+.navbar a {
     color: white;
     text-decoration: none;
     padding: 15px;
@@ -131,10 +134,11 @@ ol {
     text-align: center;
 }
 
-.navbar a:hover{
+.navbar a:hover {
     background-color: #222;
 }
-.navbar li{
+
+.navbar li {
     background: #333;
     float: left;
 }
